@@ -2,7 +2,7 @@
 
 **Đề tài NCKH Sinh viên** — Mã số: **SV2026-230**  
 **Tên đề tài:** Triển khai thử nghiệm kỹ thuật OTA trên kit nhúng  
-**Sinh viên:** Hoàng Mạnh Hùng (23139017) — Lớp 23139A, Khoa Điện – Điện tử, HCMUTE  
+**Sinh viên:** Hoàng Mạnh Hùng (23139017) (chủ nhiệm đề tài), các thành viên: Nguyễn Trương Minh Quân (23139036), Phan Khắc Hùng (23139018), Khoa Điện – Điện tử, HCMUTE  
 **Người hướng dẫn:** ThS. Huỳnh Thị Thu Hiền
 
 ---
