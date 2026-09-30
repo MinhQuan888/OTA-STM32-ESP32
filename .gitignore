@@ -1,0 +1,48 @@
+# ==========================================
+# MDK-ARM build output subfolder (tên trùng với tên project)
+# ==========================================
+**/MDK-ARM/Application_OTA/
+**/MDK-ARM/Bootloader/
+**/MDK-ARM/DebugConfig/
+
+# Build artifact extensions
+**/*.axf
+**/*.map
+**/*.htm
+**/*.build_log.htm
+**/*.d
+**/*.o
+**/*.crf
+**/*.lnp
+**/*.dep
+**/*.bak
+**/*.dbgconf
+
+# ==========================================
+# STM32 HAL library (thư viện chuẩn, không phải code mình viết)
+# ==========================================
+**/Drivers/
+
+# ==========================================
+# STM32CubeMX metadata
+# ==========================================
+**/.mxproject
+
+# ==========================================
+# ESP32 / PlatformIO build
+# ==========================================
+**/.pio/
+**/build/
+**/compile_commands.json
+
+# ==========================================
+# VSCode local settings
+# ==========================================
+**/.vscode/
+
+# ==========================================
+# OS junk
+# ==========================================
+**/.DS_Store
+**/Thumbs.db
+**/*.swp
