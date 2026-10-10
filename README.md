@@ -1,12 +1,5 @@
 # OTA Firmware Update System for STM32 via ESP32
 
-**Đề tài NCKH Sinh viên** — Mã số: **SV2026-230**  
-**Tên đề tài:** Triển khai thử nghiệm kỹ thuật OTA trên kit nhúng  
-**Sinh viên:** Hoàng Mạnh Hùng (23139017) (chủ nhiệm đề tài), các thành viên: Nguyễn Trương Minh Quân (23139036), Phan Khắc Hùng (23139018), Khoa Điện – Điện tử, HCMUTE  
-**Người hướng dẫn:** ThS. Huỳnh Thị Thu Hiền
-
----
-
 ## Mô tả hệ thống
 
 Hệ thống cập nhật firmware không dây (OTA) cho vi điều khiển **STM32F103C8T6** thông qua **ESP32** làm Wi-Fi Gateway. Người dùng tải file `.bin` lên giao diện Web, ESP32 lưu vào SPIFFS và truyền xuống STM32 qua UART với cơ chế xác nhận ACK/NACK.
@@ -50,9 +43,9 @@ BOOTLOADER_TEST/
 
 | Test Case | Mô tả | Kết quả |
 |---|---|---|
-| TC1 | Cập nhật firmware bình thường | ✅ PASS — tỉ lệ thành công 100% (50/50 lần) |
-| TC2 | Cố tình gây lỗi CRC ở khối thứ 3 | ✅ PASS — STM32 gửi NACK, abort sau 5 retry |
-| TC3 | Không gửi firmware (timeout 3 giây) | ✅ PASS — Bootloader nhảy vào App cũ |
+| TC1 | Cập nhật firmware bình thường | PASS — tỉ lệ thành công 100% (50/50 lần) |
+| TC2 | Cố tình gây lỗi CRC ở khối thứ 3 | PASS — STM32 gửi NACK, abort sau 5 retry |
+| TC3 | Không gửi firmware (timeout 3 giây) | PASS — Bootloader nhảy vào App cũ |
 
 ---
 
